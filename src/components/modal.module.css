@@ -66,3 +66,17 @@
 .input_text::placeholder {
   color: #979797;
 }
+
+@media only screen and (max-width: 720px) {
+  .formRow {
+    grid-template-columns: 6rem 1fr;
+  }
+
+  .modal {
+    width: 20rem;
+  }
+  .button {
+    right: 0;
+    left: 7rem;
+  }
+}
